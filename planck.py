@@ -49,7 +49,7 @@ def blackF(lamT):
     
     sb = 5.67e-8    # Stefan-Boltzmann constant [W/m2/K]
     
-    f_lamT = 1/sb * sp.quad(planck_lt, 0, lamT*1e-6)[0] *1e6
+    f_lamT = 1/sb * sp.quad(planck_lt, 1e-6, lamT*1e-6)[0] *1e6
     
     return f_lamT
 
