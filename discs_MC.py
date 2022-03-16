@@ -80,8 +80,6 @@ def discF12(n):
     
     df12 = (f12a-f12)/f12a*100
     df21 = (f21a-f21)/f21a*100
-
-    
     
     return f12, f12a, df12
     
